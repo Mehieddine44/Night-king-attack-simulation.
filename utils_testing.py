@@ -3,7 +3,7 @@ import utils
 # by running the functions on the Demo given in the problem discription
 
 input_tuple = utils.get_simulation_input("Demo.txt")
-simulation = utils.run_simulation_once(input_tuple, 15)
+simulation = utils.run_simulation_on_demo(input_tuple, 15)
 
 print("N = "+ str(input_tuple[0]))
 print("p = "+ str(input_tuple[1]))
