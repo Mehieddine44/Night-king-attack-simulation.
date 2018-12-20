@@ -4,7 +4,7 @@ import numpy as np
 # we would need 3 functions:
 ## 1 : get_simulation_input() ==> to read the files and extract input data from them
 ## 2 : run_simulation_once() ==> to simulate one attack on the fortress
-## 3 : run_simulation_on_demo == > to test the functionality of run_simulation_once()
+## 3 : run_simulation_on_demo() == > to test the functionality of run_simulation_once()
 
 def get_simulation_input(PATH_TO_INPUT):
 
